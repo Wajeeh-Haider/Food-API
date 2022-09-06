@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const data = require("./api/data.json");
+const data = require("./data.json");
 const dotenv = require("dotenv");
 dotenv.config();
 
