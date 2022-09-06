@@ -1,0 +1,21 @@
+{
+  "name": "food-api",
+  "version": "1.0.0",
+  "description": "This api is for food products",
+  "main": "index.js",
+   "scripts": {
+    "start": "node index.js"
+  },
+    "engines": {
+    "node": "16.15.1",
+    "npm": "8.12.1"
+  },
+  "author": "Saqlain",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

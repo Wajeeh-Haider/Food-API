@@ -1,0 +1,139 @@
+[
+    {
+    "id" : 1,
+    "title" : "Chicken Burger",
+    "description" : "Chicken Burger With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 5.99,
+    "image" : "https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Burgers",
+    "rating" : 4.5
+    },
+    {
+    "id" : 2,
+    "title" : "Beef Burger",
+    "description" : "Beef Burger With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 6.99,
+    "image" : "https://images.unsplash.com/photo-1586816001966-79b736744398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Burgers",
+    "rating" : 4.5
+    },
+    {
+    "id" : 3,
+    "title" : "Veggie Burger",
+    "description" : "Veggie Burger With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 4.99,
+    "image" : "https://images.unsplash.com/photo-1610614819513-58e34989848b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
+    "category" : "Burgers",
+    "rating" : 4.5
+    },
+    {
+    "id" : 4,
+    "title" : "Chicken Sandwich",
+    "description" : "Chicken Sandwich With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 5.99,
+    "image" : "https://images.unsplash.com/photo-1528736235302-52922df5c122?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1854&q=80",
+    "category" : "Sandwiches",
+    "rating" : 4.5
+    },
+    {
+      
+    "id" : 5,
+    "title" : "Beef Sandwich",
+    "description" : "Beef Sandwich With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 6.99,
+        
+    "image" : "https://images.unsplash.com/photo-1638537125835-82acb38d3531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Sandwiches",
+    "rating" : 4.5
+    },
+    {
+    "id" : 6,
+    "title" : "Veggie Sandwich",
+    "description" : "Veggie Sandwich With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 4.99,
+    "image" : "https://images.unsplash.com/photo-1619860860774-1e2e17343432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Sandwiches",
+    "rating" : 4.5
+    },
+    {
+    "id" : 7,
+    "title" : "Chicken Wrap",
+    "description" : "Chicken Wrap With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 5.99,
+    "image" : "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80",
+    "category" : "Wraps",
+    "rating" : 4.5
+    },
+    {
+    "id" : 8,
+    "title" : "Beef Wrap",
+    "description" : "Beef Wrap With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 6.99,
+    "image" : "https://images.unsplash.com/photo-1632660346941-023cc64e1252?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
+    "category" : "Wraps",
+    "rating" : 4.5
+    },
+    {
+    "id" : 9,
+    "title" : "Veggie Wrap",
+    "description" : "Veggie Wrap With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 4.99,
+    "image" : "https://images.unsplash.com/photo-1512852939750-1305098529bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Wraps",
+    "rating" : 4.5
+    },
+    {
+    "id" : 10,
+    "title" : "Chicken Salad",
+    "description" : "Chicken Salad With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 5.99,
+    "image" : "https://images.unsplash.com/photo-1605291535065-e1d52d2b264a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Salads",
+    "rating" : 4.5
+    },
+    {
+    "id" : 11,
+    "title" : "Beef Salad",
+    "description" : "Beef Salad With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 6.99,
+    "image" : "https://images.unsplash.com/photo-1578687388049-079580e6eb2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Salads",
+    "rating" : 4.5
+    },
+    {
+    "id" : 12,
+    "title" : "Veggie Salad",
+    "description" : "Veggie Salad With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 4.99,
+    "image" : "https://images.unsplash.com/photo-1505714197102-6ae95091ed70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Salads",
+    "rating" : 4.5
+    },
+    {
+    "id" : 13,
+    "title" : "Chicken Fries",
+    "description" : "Chicken Fries With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 5.99,
+    "image" : "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Fries",
+    "rating" : 4.5
+    },
+    {
+    "id" : 14,
+    "title" : "Beef Fries",
+    "description" : "Beef Fries With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 6.99,
+    "image" : "https://images.unsplash.com/photo-1518013431117-eb1465fa5752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "category" : "Fries",
+    "rating" : 4.5
+    },
+    {
+    "id" : 15,
+    "title" : "Veggie Fries",
+    "description" : "Veggie Fries With Cheese And Lettuce And Tomato And Onion And Pickles And Mayo And Ketchup And Mustard And Jalapenos",
+    "price" : 4.99,
+    "image" : "https://images.unsplash.com/photo-1577715694662-6bcf16c06e29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+    "category" : "Fries",
+    "rating" : 4.5
+    }
+]
