@@ -10,7 +10,7 @@
     "node": "16.15.1",
     "npm": "8.12.1"
   },
-  "author": "Saqlain",
+  "author": "Wajeeh",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
