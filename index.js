@@ -17,29 +17,11 @@ app.get("/:id", (req, res) => {
   res.send(food);
 });
 
-app.put("/:id", (req, res) => {
-  const id = req.params.id;
-  const index = data.findIndex((food) => food.id === Number(id));
-  if (index !== -1) {
-    const updatedFood = { ...data[index], ...req.body };
-    data[index] = updatedFood;
-    res.send(`Food with ID ${id} updated`);
-  } else {
-    res.status(404).send(`Food with ID ${id} not found`);
-  }
-});
-
-app.patch("/:id", (req, res) => {
-  const id = req.params.id;
-  const index = data.findIndex((food) => food.id === Number(id));
-  if (index !== -1) {
-    const updatedFood = { ...data[index], ...req.body };
-    data[index] = updatedFood;
-    res.send(`Food with ID ${id} updated`);
-  } else {
-    res.status(404).send(`Food with ID ${id} not found`);
-  }
-});
+app.get("/:category" , (req,res)=> {
+  const {category} = req.params;
+  const filterFoodByCategories = data.filter((item => item.category == category ));
+  res.send(filterFoodByCategories)
+})
 
 const PORT = process.env.PORT || 3000;
 
