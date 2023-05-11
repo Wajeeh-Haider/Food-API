@@ -17,7 +17,7 @@ app.get("/:id", (req, res) => {
   res.send(food);
 });
 
-app.get("/:category" , (req,res)=> {
+app.get("category/:category" , (req,res)=> {
   const {category} = req.params;
   const filterFoodByCategories = data.filter((item => item.category == category ));
   res.send(filterFoodByCategories)
