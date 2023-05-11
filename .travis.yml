@@ -1,4 +1,1 @@
-language: node
-rvm:
- - 18.14.0
- - node
+language: node_js
