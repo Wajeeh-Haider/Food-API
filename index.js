@@ -7,9 +7,13 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send(data);
-});
+
+app.get("products/:category" , (req,res)=> {
+  const {category} = req.params;
+  const filterFoodByCategories = data.filter((item => item.category == category ));
+  res.send(filterFoodByCategories)
+})
+
 
 app.get("/:id", (req, res) => {
   const id = req.params.id;
@@ -17,11 +21,14 @@ app.get("/:id", (req, res) => {
   res.send(food);
 });
 
-app.get("category/:category" , (req,res)=> {
-  const {category} = req.params;
-  const filterFoodByCategories = data.filter((item => item.category == category ));
-  res.send(filterFoodByCategories)
-})
+
+app.get("/", (req, res) => {
+  res.send(data);
+});
+
+
+
+
 
 const PORT = process.env.PORT || 3000;
 
