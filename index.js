@@ -8,13 +8,15 @@ app.use(cors());
 app.use(express.json());
 
 
-app.get("products/:category" , (req,res)=> {
+// Filter products by categories
+app.get("/products/:category" , (req,res)=> {
   const {category} = req.params;
   const filterFoodByCategories = data.filter((item => item.category == category ));
   res.send(filterFoodByCategories)
 })
 
 
+// Get a single food item by ID
 app.get("/:id", (req, res) => {
   const id = req.params.id;
   const food = data.find((food) => food.id === Number(id));
@@ -22,13 +24,10 @@ app.get("/:id", (req, res) => {
 });
 
 
+// Get all food items
 app.get("/", (req, res) => {
   res.send(data);
 });
-
-
-
-
 
 const PORT = process.env.PORT || 3000;
 
