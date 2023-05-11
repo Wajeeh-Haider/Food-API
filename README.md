@@ -1,71 +1,34 @@
+# Food API
 
-# How to Create Your Own API and Deploy
+This is an API for food items that provides the following endpoints:
 
-This Project is for that how to create and Deploy your own API for Free
+## API Usage
 
+### Get all food items
 
+Returns an array of all food items.
 
-## Run Locally
+Endpoint: `GET /`
 
-Clone the project
+### Get a single food item by ID
 
-```bash
-  git clone https://github.com/Wajeeh-Haider/my-api
-```
+Returns a single food item with the specified ID.
 
-Go to the project directory
+Endpoint: `GET /:id`
 
-```bash
-  cd my-api
-```
+### Filter food items by category
 
-Install dependencies
+Returns an array of food items filtered by the specified category.
 
-```bash
-  npm install
-```
+Endpoint: `GET /products/:category`
 
-Start the server
+## Installation
 
-```bash
-  node index.js
-```
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm start` to start the server.
 
+## Contributing
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`PORT` 
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  heroku login
-```
-
-After Login create heroku app
-
-```bash
-  heroku create <your app name>
-```
-
-Now Add Git into your project
-```bash
-  git init 
-  git add . 
-  git commit -m "typeAnything" 
-```
-
-Check The Git Remote by running the comman git remote
-```bash
-  git remote 
-```
-Simply then push your code to heroku
-```bash
-  git push heroku master 
-```
+Contributions are welcome! Please create a pull request with your changes.
 
